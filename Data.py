@@ -71,6 +71,6 @@ class preprocess():
     def tsneFunc(self, df):
         logger.info('\n dimensional reductionality using TSNE \n')
         tsne = TSNE(n_components=3, verbose=1, perplexity=40, n_iter=300)
-        tsneResults = tsne.fit_transform()
+        tsneResults = tsne.fit_transform(df)
 
         return tsneResults

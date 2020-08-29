@@ -11,7 +11,12 @@ The repo contains the following:
 - Requirement.txt - which python packages are needed to run your code
 - Main.py - imports all the necessary classes and functions from other files and automates the process of pre-processing, model training, and  model prediction.
 - Data.py - contains all functions and classes you write to do the pre-processing 
-- Model.py - contains all functions and classes you write to generate your three models
+- Model.py - contains all functions and classes you write to generate your model
 - notebooks/ - a folder that contains jupyter notebooks you use to develop your code (Contains Data Visualizations too) 
 
+### Usage
+> python Main.py bank-additional-full.csv
+
 ### [Blog Post](https://medium.com/@gkkarobia/bank-institution-term-deposit-predictive-model-imbalanced-classes-dc747daa50b7)
+### [Data Link](http://archive.ics.uci.edu/ml/machine-learning-databases/00222/) 
+> Download the bank-additional.zip and get the bank-additional-full.csv from that zip file
